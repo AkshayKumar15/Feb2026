@@ -12,6 +12,7 @@ public class SeleniumTest {
 		driver.manage().window().maximize();
 		Thread.sleep(5000);
 		driver.close();
+		System.out.println("this is my last line");
 	}
 
 }
